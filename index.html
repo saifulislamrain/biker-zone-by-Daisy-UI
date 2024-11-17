@@ -100,11 +100,11 @@
        <!-- nav section end here -->
 
        <!--sliding banner section started  -->
-       <section class=" lg:h-[550px] bg-fuchsia-50">
-        <div class="carousel w-full">
+       <section class="bg-fuchsia-50">
+        <div class="carousel w-full h-[800px]">
           <!-- slide1 -->
           <di v id="slide1" class="carousel-item relative w-full justify-center">
-            <div class="lg:flex space-x-12 h-96">
+            <div class=" flex space-x-12 h-96">
               <div class=" content-center flex-1 items-center text-black space-y-6 p-10 pt-44  pl-20">
                 <h1 class=" text-4xl font-bold">
                   Ride-on R15 V4 <br>with Smile
@@ -113,12 +113,12 @@
                   est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                   <button class="btn text-white border-hidden bg-orange-500 ">Purchase</button>
               </div>
-              <div class="flex-1  h-96 w-96 pr-20 mt-20 "><img
+              <div class="flex-1  h-96 w-96 pr-20 mt-20  justify-center text-center"><img
                 src="images/slider/bike1.png"
                 class="w-full justify-center h[400]" /></div>
             </div>
             
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between lg:pb-96 ">
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between pb-[0px] ">
               <a href="#slide4" class="btn btn-circle text-orange-500 ">❮</a>
               <a href="#slide2" class="btn btn-circle text-orange-500">❯</a>
             </div>
@@ -145,7 +145,7 @@
           </div>
           <!-- slide3 -->
           <div id="slide3" class="carousel-item relative w-full">
-            <div class="flex space-x-12 h-96">
+            <div class=" flex space-x-12 h-96">
               <div class=" content-center flex-1 items-center text-black space-y-6 p-10 pt-44  pl-20">
                 <h1 class=" text-4xl font-bold">
                   Ride-on R15 V4 <br>with Smile
@@ -179,11 +179,139 @@
         </div>
        </section>
     </header>
-    <main>
+    <main class="px-32">
       <!-- featured section started  -->
-       <div class="flex">
+       <div class="flex-col mt-16 mx-24">
+        <div class="space-y-3"><h2 class="capitalize text-white text-2xl text-center">featured bikes in this year</h2>
+        <p class="capitalize text-red-600 text-center">best bike collection</p></div>
+        <!-- image div  -->
+        <div class="flex justify-between mt-10">
+          <img src="images/others/feature-bike.png" alt="">
+          <img src="images/others/feature-bike.png" alt="">
+          <img src="images/others/feature-bike.png" alt="">
+        </div>
 
        </div>
+       <!-- featured section end  -->
+
+       <!-- card section started  -->
+        <div class=" flex  justify-between mt-24 ">
+<div class=" rounded-lg shadow-lg p-4 bg-white w-max space-y-6 ">
+  <!-- card 1 -->
+  <div class=""><img src="images/others/latest1.png" alt=""></div>
+  <div class=" space-y-4 text-black">
+    <h2 class="text-xl font-bold">Ducati XDIAVEL S-73</h2>
+    <p class="font-semibold">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Lacus, fermentum amet <br>faucibus sed id nisi lectus at.</p>
+    <button class="btn bg-orange-600 border-none text-white"> Read More</button>
+  </div>
+</div>
+<!-- card 2 -->
+<div class=" rounded-lg shadow-lg p-4 bg-white w-max space-y-6">
+  <div class=""><img src="images/others/latest2.png" alt=""></div>
+  <div class=" space-y-4 text-black">
+    <h2 class="text-xl font-bold text-black">Motorcycles & Scooters </h2>
+    <p class="font-semibold">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Lacus, fermentum amet <br>faucibus sed id nisi lectus at.</p>
+    <button class="btn bg-transparent border-orange-600 border-2 text-black"> Read More</button>
+  </div>
+</div>
+<!-- card 3 -->
+<div class=" rounded-lg shadow-lg p-4 bg-white w-max space-y-6">
+  <div class=""><img src="images/others/latest3.png" alt=""></div>
+  <div class=" space-y-4 text-black">
+    <h2 class="text-xl font-bold">2021 Honda CBR500R</h2>
+    <p class="font-semibold">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Lacus, fermentum amet <br>faucibus sed id nisi lectus at.</p>
+    <button class="btn bg-transparent border-orange-600 border-2 text-black"> Read More</button>
+  </div>
+</div>
+        </div>
+        <!-- card section end here  -->
+         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7">
+
+          <!-- card one  -->
+          <div class="card bg-base-100 w-96 shadow-xl p-5 my-40">
+            <figure class="p-10">
+              <img
+                src="images/others/user-1.png"
+                alt="profile" />
+            </figure>
+            <div class="card-body">
+             
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <div class="rating justify-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                     />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <h4 class="text-cyan-500 text-center font-semibold">Regina Miles</h4>
+                 <p class="text-center capitalize">banker </p>
+            </div>
+          </div>
+          <!-- card two  -->
+          <div class="card bg-base-100 w-96 shadow-xl p-5 my-40">
+            <figure class="p-10">
+              <img
+                src="images/others/user-2.png"
+                alt="profile" />
+            </figure>
+            <div class="card-body">
+             
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <div class="rating justify-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                     />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <h4 class="text-cyan-500 text-center font-semibold">Regina Miles</h4>
+                 <p class="text-center capitalize">banker </p>
+            </div>
+          </div>
+          <!-- card three  -->
+          <div class="card bg-base-100 w-96 shadow-xl p-5 my-40">
+            <figure class="p-10">
+              <img
+                src="images/others/user-3.png"
+                alt="profile" />
+            </figure>
+            <div class="card-body">
+             
+              <p>Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <div class="rating justify-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                     />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <h4 class="text-cyan-500 text-center font-semibold">Regina Miles</h4>
+                 <p class="text-center capitalize">banker </p>
+            </div>
+          </div>
+         </section>
     </main>
     <footer>
 
